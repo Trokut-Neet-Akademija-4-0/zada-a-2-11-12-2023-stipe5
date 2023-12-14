@@ -231,6 +231,7 @@ footer {
 }
 #kontaktforma button:hover {
     background-color: #068FFF;
+    cursor: pointer;
 }
 #kontaktforma button:active {
     background-color: #38a5ff;
@@ -259,6 +260,7 @@ footer {
 }
 #main-services button:hover {
     background-color: #068FFF;
+    cursor: pointer;
 }
 #main-services button:active {
     background-color: #38a5ff;
