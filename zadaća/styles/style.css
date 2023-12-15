@@ -108,7 +108,7 @@ nav .search input {
     width: 150px;
     padding: 6px;
     font-size: 15px;
-    margin-top: 8px;
+    margin-top: 5px;
     border: solid black 1px;
     border-right: none;
 }
@@ -119,8 +119,7 @@ nav .search button {
     float: right;
     padding: 6px 10px;
     font-size: 19px;
-    margin-top: 8px;
-    margin-right: 16px;
+    margin-top: 5px;
     background-color: black;
     border: none;
     cursor: pointer;
@@ -250,12 +249,13 @@ footer {
     font-family: Rethink;
     width: 100px;
     border: none;
-    padding: 10px 10px;
     background-color: black;
     color: white;
     margin-bottom: 5px;
 }
 #main-services button a {
+    display: block;
+    padding: 10px 10px;
     color: white;
 }
 #main-services button:hover {
