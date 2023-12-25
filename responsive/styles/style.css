@@ -177,18 +177,19 @@ footer {
     padding: 5px;
 }
 .social-icon {
-    filter: invert(98%) sepia(100%) saturate(0%) hue-rotate(325deg) brightness(101%) contrast(105%);
-    width: 25px;
+    color: white;
+    font-size: 1.2em;
+    width: 15px;
     height: 25px;
 }
 #facebook:hover {
-    filter: invert(35%) sepia(64%) saturate(849%) hue-rotate(187deg) brightness(90%) contrast(78%);
+    color: #1877f2;
 }
 #twitter:hover {
-    filter: invert(49%) sepia(45%) saturate(1822%) hue-rotate(176deg) brightness(97%) contrast(95%);
+    color: #1da1f2;
 }
 #instagram:hover {
-    filter: invert(31%) sepia(33%) saturate(2440%) hue-rotate(289deg) brightness(96%) contrast(97%);
+    color: #c13584;
 }
 :is(section, div) > p:first-of-type:not(:only-of-type)::first-letter {
     font-size: 1.5rem;
@@ -222,8 +223,9 @@ footer {
     justify-content: center;
 }
 .kontakt-socials {
-    font-size: 18px;
-    width: 25px;
+    color: black;
+    font-size: 1.4em;
+    width: 20px;
     height: 25px;
 }
 #main-contact {
@@ -234,6 +236,10 @@ footer {
 @media screen and (max-width: 650px) {
     #main-contact {
         flex-direction: column;
+    }
+    .kontakt-forma {
+        order: 1;
+        margin-top: 15px;
     }
     body {
         background-image: initial;
