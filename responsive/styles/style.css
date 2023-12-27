@@ -83,6 +83,9 @@ nav .navlist ul li:active {
     background-color: #38a5ff;
     color: white;
 }
+nav .navlist i {
+    display: none;
+}
 nav .navlist ul li a {
     display: inline-block;
     text-align: center;
@@ -346,6 +349,14 @@ footer {
     }
     #main-services > #train > div {
         flex-direction: column;
+    }
+    nav .navlist i {
+        display: inline-block;
+        font-size: 2em;
+        padding: 15px;
+    }
+    nav .navlist ul li {
+        display: none;
     }
     
 }
