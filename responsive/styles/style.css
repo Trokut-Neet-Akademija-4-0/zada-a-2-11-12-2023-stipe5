@@ -59,6 +59,7 @@ nav .logo {
 nav .logo img {
     width: 100%;
     height: 100%;
+    object-fit: contain;
 }
 nav {
     max-height: 110px;
@@ -357,6 +358,10 @@ footer {
     }
     nav .navlist ul li {
         display: none;
+    }
+    .nav-menu {
+        display: flex;
+        flex-direction: column;
     }
     
 }
